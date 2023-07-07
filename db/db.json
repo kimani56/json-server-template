@@ -1,444 +1,132 @@
 {
-  "example": [
+  "car": [
     {
-      "id": 1,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Toyota",
+      "image": "https://media.istockphoto.com/id/1150931120/photo/3d-illustration-of-generic-compact-white-car-front-side-view.jpg?s=1024x1024&w=is&k=20&c=3w7KSlHnU0KCZnUhZO15C0WE-YYpwnBfRwbwIptXdCY=",
+      "category": "sedan",
+      "specs": "Model: Toyota | Engine: 2.5L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: Camry",
+      "price": 25000,
+      "year": 2022,
+      "color": "Silver"
     },
     {
-      "id": 2,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Honda",
+      "image": "https://media.istockphoto.com/id/458119929/photo/new-honda-civic-front.jpg?s=1024x1024&w=is&k=20&c=59ubs_PmeS0Vk3EGJ0IKmjQULOAdNqmdBYnw8JMWkoQ=",
+      "category": "sedan",
+      "specs": "Model: Honda | Engine: 1.8L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol | Specific Model: Civic",
+      "price": 22000,
+      "year": 2022,
+      "color": "Red"
     },
     {
-      "id": 3,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Tesla",
+      "image": "https://media.istockphoto.com/id/854733342/photo/tesla-model-x-on-the-street.jpg?s=1024x1024&w=is&k=20&c=jXDCjGg2qsSLdhkzu7P59W0qJoOYv-bKK1aONp2gYf0=",
+      "category": "ev",
+      "specs": "Model: Tesla | Electric | Transmission: Automatic | Specific Model: Model 3",
+      "price": 40000,
+      "year": 2022,
+      "color": "Blue"
     },
     {
-      "id": 4,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Ford",
+      "image": "https://media.istockphoto.com/id/592034128/photo/ford-f-150.jpg?s=1024x1024&w=is&k=20&c=V-vpnjEKgwLCXTinJ9anL_87A4ChKqv9j_oySHnwQXU=",
+      "category": "truck",
+      "specs": "Model: Ford | Engine: V6 | Transmission: Automatic | Fuel Type: Petrol | Specific Model: F-150",
+      "price": 50000,
+      "year": 2022,
+      "color": "Black"
     },
     {
-      "id": 5,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Chevrolet",
+      "image": "https://media.istockphoto.com/id/1350778139/photo/2017-chevrolet-equinox-suv-in-white-chevy-a-division-of-general-motors-also-makes-suburban.jpg?s=1024x1024&w=is&k=20&c=sk8IxPij1f5nU4Y372sfWRNXEQBN9Og9UXyP0j9-bqM=",
+      "category": "suv",
+      "specs": "Model: Chevrolet | Engine: V8 | Transmission: Automatic | Fuel Type: Petrol | Specific Model: Tahoe",
+      "price": 60000,
+      "year": 2022,
+      "color": "White"
     },
     {
-      "id": 6,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Mercedes-Benz",
+      "image": "https://media.istockphoto.com/id/1187756393/photo/mercedes-benz-e220d.jpg?s=1024x1024&w=is&k=20&c=sA_sNrNqMFjT_uvSgMy_Y2IO2UFt0lqiS6QsGPv62S4=",
+      "category": "sedan",
+      "specs": "Model: Mercedes-Benz | Engine: 3.0L, 6-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: E-Class",
+      "price": 55000,
+      "year": 2022,
+      "color": "Gray"
     },
     {
-      "id": 7,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Nissan",
+      "image": "https://media.istockphoto.com/id/475358758/photo/generic-black-car-side-view.jpg?s=1024x1024&w=is&k=20&c=Fi2U6O_WIt92MvIWJHezOOCwVSJ5TOqP0NI4bLFA7Vc=",
+      "category": "sedan",
+      "specs": "Model: Nissan | Engine: 2.0L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol | Specific Model: Altima",
+      "price": 23000,
+      "year": 2022,
+      "color": "Black"
     },
     {
-      "id": 8,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "BMW",
+      "image": "https://media.istockphoto.com/id/501515532/photo/bmw-e90-318i.jpg?s=1024x1024&w=is&k=20&c=lazN7Ur7Qlz9IE7An5I79zvCNboZQlTYdoUwcwjxCOs=",
+      "category": "sedan",
+      "specs": "Model: BMW | Engine: 2.0L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: 3 Series",
+      "price": 40000,
+      "year": 2022,
+      "color": "White"
     },
     {
-      "id": 9,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Lexus",
+      "image": "https://media.istockphoto.com/id/1171382992/photo/lexus-is.jpg?s=1024x1024&w=is&k=20&c=a5lba_emk5-Lr2wYmkD-TxfbhYmx23ne0w6De0pyzp4=",
+      "category": "sedan",
+      "specs": "Model: Lexus | Engine: 3.5L, 6-cylinder | Transmission: Automatic | Fuel Type: Petrol | Specific Model: ES 350",
+      "price": 45000,
+      "year": 2022,
+      "color": "Silver"
     },
     {
-      "id": 10,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Toyota RAV4",
+      "image": "https://media.istockphoto.com/id/1388853267/photo/blue-toyota-rav4-on-dirt-road-in-utah-wilderness.jpg?s=1024x1024&w=is&k=20&c=QI-5pAm4UxXcGaIV7Atki5FTx99QFfGpq8vmoCMZqpk=",
+      "category": "suv",
+      "specs": "Engine: 2.5L, 4-cylinder | Transmission: Automatic | Fuel Type: Petrol",
+      "price": 28000,
+      "year": 2022,
+      "color": "Blue"
     },
     {
-      "id": 11,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Ford Explorer",
+      "image": "https://media.istockphoto.com/id/1056881324/photo/ford-explorer-in-motion.jpg?s=1024x1024&w=is&k=20&c=OopzBrhi0aGII9U5Kl3z97fvOF-XlDbwcp2O-9FjM4E=",
+      "category": "suv",
+      "specs": "Engine: 3.5L, V6 | Transmission: Automatic | Fuel Type: Petrol",
+      "price": 35000,
+      "year": 2021,
+      "color": "Black"
     },
     {
-      "id": 12,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Chevrolet Tahoe",
+      "image": "https://media.istockphoto.com/id/1067515572/photo/chevrolet-suburban-on-the-road.jpg?s=1024x1024&w=is&k=20&c=iSK0LWPaeL24YLe5yElhHpI6JeTZ6z-5VcWoi9NaAJk=",
+      "category": "suv",
+      "specs": "Engine: 5.3L, V8 | Transmission: Automatic | Fuel Type: Petrol",
+      "price": 45000,
+      "year": 2022,
+      "color": "Silver"
     },
     {
-      "id": 13,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Nissan Rogue",
+      "image": "https://media.istockphoto.com/id/1295841962/photo/2021-nissan-rogue.jpg?s=1024x1024&w=is&k=20&c=lMHd4AM3DNW2BHEC2EpNdQQcx9rOEJk8KeD7C3zGHWQ=",
+      "category": "suv",
+      "specs": "Engine: 2.5L, 4-cylinder | Transmission: CVT | Fuel Type: Petrol",
+      "price": 25000,
+      "year": 2022,
+      "color": "White"
     },
     {
-      "id": 14,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 15,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 16,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 17,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 18,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 19,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 20,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 21,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 22,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 23,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 24,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 25,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 26,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 27,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 28,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 29,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 30,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 31,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 32,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 33,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 34,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 35,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 36,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 37,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 38,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 39,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
-    },
-    {
-      "id": 40,
-      "exampleAttributeString": "This is just an example. Please supply your own data.",
-      "exampleImgString": "https://placehold.co/150x150.jpg",
-      "exampleAttributesArray": ["Replace", "this", "data"],
-      "exampleAttributeNumber": 2341,
-      "exampleAttributeObj": {
-        "objectKey": "objectValue"
-      },
-      "exampleAttributeBoolean": false
+      "model": "Jeep Grand Cherokee",
+      "image": "https://media.istockphoto.com/id/533072937/photo/jeep-wrangler-unlimited-4x4.jpg?s=1024x1024&w=is&k=20&c=XFwyoqVovW78nrXcDi5bWRdHSC677LU7sT8bFVsZewY=",
+      "category": "suv",
+      "specs": "Engine: 3.6L, V6 | Transmission: Automatic | Fuel Type: Petrol",
+      "price": 38000,
+      "year": 2021,
+      "color": "Red"
     }
+  
+    
   ]
 }
